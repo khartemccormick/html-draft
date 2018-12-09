@@ -1,0 +1,60 @@
+body {
+	background: radial-gradient(black, #525359);
+}
+h1{
+	background-color: #525354; 
+
+}
+h1{
+	font-family: Ailerons
+}
+
+h3 {
+	background-color: #525354; 
+}
+a:link{
+  color:black;
+}
+a:visited{
+  color:black;
+}
+a:hover{
+  color:black;
+}
+a:focus{
+  color:black;
+}
+a:active{
+  color:black;
+}
+img {
+    transition:transform 0.50s ease;
+}
+
+
+img:hover {
+    -webkit-transform:scale(1.0); /* or some other value */
+    transform:scale(1.1);
+}
+.image .caption { font-size: 80%;
+                  font-family: Verdana, Arial, sans-serif;
+                  text-align: center; }
+<style>
+
+
+* {
+    box-sizing: border-box;
+}
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+</style>
+<style>
